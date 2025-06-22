@@ -1,0 +1,12 @@
+{
+    "enabled": false,
+    "apiKey": "",
+    "apiEndpoint": "https://api.espai.fun/ai_api/tts",
+    "voices": {
+    },
+    "defaultVoice": "",
+    "sampleRate": 24000,
+    "volume": 90,
+    "rate": 1,
+    "cacheDir": "tts_cache"
+}

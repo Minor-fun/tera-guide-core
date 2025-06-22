@@ -1,0 +1,10 @@
+# 设置默认行为为自动检测文本并使用LF
+* text=auto eol=lf
+
+# 指定特定文件类型使用LF
+*.md text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+
+# .gitattributes文件本身使用CRLF
+.gitattributes text eol=crlf
