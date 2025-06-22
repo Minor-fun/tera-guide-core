@@ -1,12 +1,13 @@
 {
     "files": {
         "LICENSE": "3a6951431f77f106f39ebc87cc32cb6aee7371cc168ec1862d2ce8775875c8f1",
-        "README.md": "ce35a5a1dd1acf791d1de4e158c4eb0cb1962ad24830e4308276158f392278eb",
+        "README.md": "035d01019159660280188a6e681c8e0196ca54a1509c26e93eab843a12389dd3",
+        "README.zh-CN.md": "58e52a13829be14ec66230b06afe1a96ba9c0f62f5b01a3055c1a1d616a5e114",
         "index.js": "71013206439da3b0e0f1d414553eaa09dec20b5363c661bf6863c4206c3ddd74",
         "lib/compat/data/esZones.json": "43aedf3c82fd29736eae4b497f21bd78dfec11cfbe806c3520f1fe5336f38f1e",
         "lib/compat/data/spZones.json": "9324cf924ba3fb9e0ca7ccdeef766edc33bfab4205f875a2b3c964dcf816a0d9",
         "lib/compat/lib.js": "dc957207a9f9ee3b1b55ad64fc3ef20c5b38c8325a05b71ce38981d140449f37",
-        "lib/core/commands.js": "6a000fee646a23acc35d461d026eddd8f845d2187b3b03602346cd186aa2a120",
+        "lib/core/commands.js": "f7958b5f3064cbc5fd4a6e82fe9cdc033eba16a7580e60d5b358fbb2e1094c91",
         "lib/core/events.js": "6925fd7b7613f9197ef05203295cf2b9c535c38fc4cf25e3d7f2de8a0c87a9d2",
         "lib/core/events/game/enter_game.js": "a6702816f8910e3b149cf4546efc985c87ae54b704d7499b033a18c7dfb83f43",
         "lib/core/events/game/me/change_zone.js": "57f004c974c5254e80f28ea3ee0f63687957a28ce3efb4a52f2ba583eea2a9f3",
@@ -35,7 +36,7 @@
         "lib/core/events/hooks/S_QUEST_BALLOON.js": "c68a2f56a34b33c722d0eb29dd38e7e69e8862a315104d5351377d75cc363da5",
         "lib/core/events/hooks/S_SPAWN_NPC.js": "d7a3f8a07c29a0a539f9ef8675dfee8ae5bdc57214f01849c41dcdde8e5a5b74",
         "lib/core/functions.js": "a965e841b0092327c2837e1ed025555275d66be90346a5d49fa232e31b0a8f18",
-        "lib/core/gui.js": "88a66e2afe330bd02e53fd4f56ecda01dd27d3bfe49b8220dc6b0893d105b278",
+        "lib/core/gui.js": "3bd677eccaa88ccfb25459bd062e58bb230ec72a574d970e45b293d03694fef9",
         "lib/core/guide.js": "e45b68f8e6471e8a40d5ddba1b19c68624e7e4baad78dfe8818ebb88e3b3f049",
         "lib/core/handlers.js": "b6da7961bf2a2e9d90b0d8af870dcb6e06cc969343a16419290a0ce7b0b209e7",
         "lib/core/hooks.js": "4f2fafaa6daed56fc2826aaca9ee4da474fbdf8486982992735dc6369f03f75c",
@@ -46,12 +47,14 @@
         "lib/dispatch.js": "4b2cbf1795708074a87f864e1aea3ca6546e294318aa24a3d28db963a23ecebd",
         "lib/lang.js": "bbc898354d49b0adeb754d7103e5d39ed14d0f05dd7f5b5426b2917ea4ac2cc0",
         "lib/lang/dungeons.js": "e556684959e185f75340716f234dde7c77c98c4d699b127d787b53b9111eb3e2",
-        "lib/lang/strings.js": "7580b825baa87843525f31c0ecb213d7e5e42a76e0eeb58f7fa2982d0ebf55c7",
+        "lib/lang/strings.js": "894aa482a7688e066596b33a4efeb61a6de07a6b9d2db5eaa7131c7374d258e9",
+        "lib/onlineTTS.js": "5894439f792c51dbc1e385aebe5e9fca494db629349e6c8dbfeb824e951dae60",
         "lib/send.js": "ea380d664c71bd0fdf25a0e9ed62c8dbd7fd772ef896092ea39cc102f48e4da2",
         "lib/spawn.js": "390c16576d4fa26b3dfe9ccec4c6d7d948b40dbc9fb86bfce94d33b591dedbea",
-        "lib/speech.js": "41d31f47e1ec64dc78a6f4a6d0be053f2ef5fac36234dfc41acea371c8c86f2c",
+        "lib/speech.js": "113572fccf0d144e8aaa9162fe75ead60d33b0cebc1b194cd7225aa4397a63d9",
+        "lib/utils/audioPlayer.js": "0d96bc808cccbd37551c739e81a895b58574a4e4232833891da8cb3e7f6e8a12",
         "lib/utils/powershell.js": "51d97e6c59bd901e483a4221b041a5a623a9f3f6bc7029afe063a645a0383fd4",
         "lib/voice.js": "b4b3161077832ded7267f0c5c624a6688f6eae36cd7baabb88b34e3b38543819",
-        "module.json": "61fb30536bfdf9168b747a2b35d374b3b661f83f3240bd90efee59e9ce908ffb"
+        "module.json": "4590b3a180f02e1728b8886bc6b92b6ee9eb7d52baef961aae7d840db34567e7"
     }
 }
