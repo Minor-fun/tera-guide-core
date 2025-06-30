@@ -48,7 +48,7 @@
         "lib/lang.js": "bbc898354d49b0adeb754d7103e5d39ed14d0f05dd7f5b5426b2917ea4ac2cc0",
         "lib/lang/dungeons.js": "e556684959e185f75340716f234dde7c77c98c4d699b127d787b53b9111eb3e2",
         "lib/lang/strings.js": "7580b825baa87843525f31c0ecb213d7e5e42a76e0eeb58f7fa2982d0ebf55c7",
-        "lib/onlineTTS.js": "c20804b26e25e5658fee02e82e13426dad0e6e38653b7b1daa3fbf39ad9c9697",
+        "lib/onlineTTS.js": "c9986333b16c5b30c63ca012978ef6b6a0b3e99110301233dfc91c72f2b6ecfa",
         "lib/send.js": "ea380d664c71bd0fdf25a0e9ed62c8dbd7fd772ef896092ea39cc102f48e4da2",
         "lib/spawn.js": "390c16576d4fa26b3dfe9ccec4c6d7d948b40dbc9fb86bfce94d33b591dedbea",
         "lib/speech.js": "1f0b70996ae1a3ad94c40e6053ad3e63c326a7d225284e1ed551c3a6d4b0078d",
