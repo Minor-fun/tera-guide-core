@@ -26,7 +26,7 @@ The online TTS feature employs a smart caching system:
 
 #### Step 1: Register on the Online TTS Platform and Get API Key
 1. Visit registration address: [https://dev.espai.fun](https://dev.espai.fun?invite_code=4c5bf7b78649494689dbc446e43db7f1)
-2. After registration and creating a super body, find the API Key in the lower left corner
+2. After registration and creating a metabody, find the API Key in the lower left corner
 
 #### Step 2: Configure API Key
 ```
