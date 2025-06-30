@@ -10,51 +10,34 @@ The module integrates online TTS voice functionality, allowing you to use high-q
 
 ### Key Features
 
-* Support for high-quality voice notifications through online API
-* Free TTS voice generation platform: https://dev.espai2.fun/
-* Support for various voice models, theoretically capable of cloning any voice you want
+* High-quality voice notifications through online API
+* AI model cloning technology, theoretically capable of cloning any voice you want
 * Optimized audio file caching mechanism for improved playback efficiency and storage utilization
-* Complete GUI interface control
+* Complete GUI interface control, supporting enable/disable online TTS, test online TTS, voice selection, voice deletion, and speech rate adjustment
+
+### Online TTS Audio File Playback Mechanism
+
+The online TTS feature employs a smart caching system:
+* When entering a dungeon for the first time, voice alerts won't play. Instead, the system generates audio files through the online API and caches them locally.
+* The next time you enter the same dungeon, the system will use the locally cached audio files for playback.
+* Generated audio files are categorized by voice name and automatically cached in the local `tts_cache` directory.
 
 ### Usage
 
-1. **Set API Key**:
-   ```
-   guide onlinetts apikey YOUR_API_KEY
-   ```
+#### Step 1: Register on the Online TTS Platform and Get API Key
+1. Visit registration address: [https://dev.espai.fun](https://dev.espai.fun?invite_code=4c5bf7b78649494689dbc446e43db7f1)
+2. After registration and creating a super body, find the API Key in the lower left corner
 
-2. **Add Voice**:
-   ```
-   guide onlinetts addvoice Kamisato cosyvoice-v2-espai-353f83ac94d8461a954b86cbd67fc6d8
-   ```
-   The sample voice is "Kamisato" from Genshin Impact game character Kamisato Ayaka, with voice ID "cosyvoice-v2-espai-353f83ac94d8461a954b86cbd67fc6d8"
+#### Step 2: Configure API Key
+```
+guide onlinetts apikey YOUR_API_KEY
+```
 
-3. **Set Default Voice**:
-   ```
-   guide onlinetts voice Kamisato
-   ```
-
-4. **Test Voice**:
-   ```
-   guide onlinetts test "This is a test message"
-   ```
-
-### Caching Mechanism
-
-The online TTS feature employs a smart caching system:
-* When entering a dungeon for the first time, the system generates audio files through the online API and caches them locally, but these files won't play immediately
-* Generated audio files are categorized by voice name and automatically cached in the local `tts_cache` directory
-* Filenames are intelligently processed, with punctuation removed and length limited to ensure file system compatibility
-* Cache files are stored in directories by voice name for easy management and cleanup
-* The next time you enter the same dungeon, the system will directly use the locally cached audio files for playback, without needing to request the API again
-
-### GUI Control
-
-Online TTS control options have been added to the module's GUI interface:
-* Enable/Disable online TTS feature
-* Test online TTS feature
-* Change default voice
-* Adjust voice rate
+#### Step 3: Add Voice
+```
+guide onlinetts addvoice Kamisato cosyvoice-v2-espai-353f83ac94d8461a954b86cbd67fc6d8
+```
+> The sample uses the voice of Genshin Impact character "Kamisato Ayaka", with voice ID "cosyvoice-v2-espai-353f83ac94d8461a954b86cbd67fc6d8"
 
 ### Command List
 
