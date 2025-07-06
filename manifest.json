@@ -1,8 +1,8 @@
 {
     "files": {
         "LICENSE": "3a6951431f77f106f39ebc87cc32cb6aee7371cc168ec1862d2ce8775875c8f1",
-        "README.md": "035d01019159660280188a6e681c8e0196ca54a1509c26e93eab843a12389dd3",
-        "README.zh-CN.md": "58e52a13829be14ec66230b06afe1a96ba9c0f62f5b01a3055c1a1d616a5e114",
+        "README.md": "172fe207e79e4058e41c17f1d54c90731c51f1b1595478b16bbda157bd12b437",
+        "README.zh-CN.md": "467813c684d7a730a471ccacd2376bd1b212b1512976f2170ce69a18112296a0",
         "index.js": "71013206439da3b0e0f1d414553eaa09dec20b5363c661bf6863c4206c3ddd74",
         "lib/compat/data/esZones.json": "43aedf3c82fd29736eae4b497f21bd78dfec11cfbe806c3520f1fe5336f38f1e",
         "lib/compat/data/spZones.json": "9324cf924ba3fb9e0ca7ccdeef766edc33bfab4205f875a2b3c964dcf816a0d9",
