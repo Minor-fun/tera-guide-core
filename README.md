@@ -4,23 +4,23 @@
 
 # tera-guide-core
 
-This version adds online TTS voice generation functionality based on hsdn's version.
+This version adds GitHub-based OnlineTTS playback based on hsdn's version.
 
 For guides compatible with this version, you must use this address: https://github.com/Minor-fun/tera-guide
 
-### Main Features of Online TTS
+### Main Features of OnlineTTS
 
-* Generate high-quality voice prompts through online API
-* Uses AI model cloning technology, theoretically able to clone any voice you want
-* Optimized audio file caching mechanism, improving playback efficiency and storage utilization
-* Complete GUI interface control, supporting enabling/disabling online TTS, testing online TTS, voice selection, voice deletion, and speed selection
+* Play pre-generated voice prompts from a public GitHub cache repo (no API key needed)
+* Voice packs are organized by language + voice
+* GUI controls for enabling/disabling cache, refreshing pack list, downloading, updating, selecting, and deleting packs
+* Local cache stored in the `tts_cache` directory
 
-### Online TTS Audio File Playback Mechanism
+### OnlineTTS Playback Mechanism
 
-The online TTS feature uses an intelligent caching mechanism:
-* When entering a dungeon for the first time, voice reminders won't play. The system will generate audio files through the online API interface and cache them locally.
-* The next time you enter the same dungeon, the system will use the locally cached audio files for playback.
-* Generated audio files are categorized by voice name and automatically cached in the local `tts_cache` directory.
+The OnlineTTS feature uses a cache-only playback mechanism:
+* Only plays audio from downloaded voice packs.
+* If a pack or file is missing, playback is skipped.
+* Packs can be refreshed and updated when remote manifests change.
 
 ## Basic features
 

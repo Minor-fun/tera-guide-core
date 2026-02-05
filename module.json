@@ -5,9 +5,9 @@
         "niceName": "Guide Core",
         "guiName": "tera-guide-core"
     },
-    "author": "HSDN",
+    "author": "hyacinth/HSDN",
     "description": "TERA-Guide module library.",
-    "servers": ["https://raw.githubusercontent.com/Minor-fun/tera-guide-core/master/"],
+    "servers": ["https://raw.githubusercontent.com/Minor-fun/tera-guide-core/dev/"],
     "supportUrl": "https://github.com/Minor-fun/tera-guide/issues",
     "dependencies": {
         "library": "https://raw.githubusercontent.com/tera-private-toolbox/library/master/module.json"
