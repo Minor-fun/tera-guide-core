@@ -4,36 +4,6 @@
 
 # tera-guide-core
 
-基于hsdn的版本增加了GitHub缓存语音播放功能（OnlineTTS）
-
-适配这个版本的guide你必须使用这个地址的：https://github.com/Minor-fun/tera-guide
-
-### OnlineTTS缓存主要特点
-
-* 从公开GitHub缓存仓库播放预生成语音（无需API Key）
-* 语音包按「语言 + 音色」组织
-* GUI支持开启/关闭缓存、刷新列表、下载/更新/选择/删除语音包
-* 本地缓存存放在`tts_cache`目录
-
-### OnlineTTS缓存播放机制
-
-OnlineTTS缓存采用仅缓存播放机制：
-* 只播放已下载语音包中的音频
-* 语音包或文件缺失时直接跳过
-* 远程清单有变化时可刷新并更新
-
-
-## 基本功能
-
-* 提供完整工具集，用于创建自定义副本、Boss和机制指南
-* 支持添加自定义语言翻译
-* 内置GUI支持所有指南设置
-* 支持语音通知（使用Windows TTS模块）
-* 灵活强大的指南脚本编写功能
-* 基于游戏客户端文件自动生成副本列表
-* 使用现代JavaScript提高性能
-* 使用nodejs EventEmitter处理所有事件和钩子
-
 ## 依赖
 
 * **Library** - https://github.com/tera-private-toolbox/library

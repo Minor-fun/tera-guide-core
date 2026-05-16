@@ -4,35 +4,6 @@
 
 # tera-guide-core
 
-This version adds GitHub-based OnlineTTS playback based on hsdn's version.
-
-For guides compatible with this version, you must use this address: https://github.com/Minor-fun/tera-guide
-
-### Main Features of OnlineTTS
-
-* Play pre-generated voice prompts from a public GitHub cache repo (no API key needed)
-* Voice packs are organized by language + voice
-* GUI controls for enabling/disabling cache, refreshing pack list, downloading, updating, selecting, and deleting packs
-* Local cache stored in the `tts_cache` directory
-
-### OnlineTTS Playback Mechanism
-
-The OnlineTTS feature uses a cache-only playback mechanism:
-* Only plays audio from downloaded voice packs.
-* If a pack or file is missing, playback is skipped.
-* Packs can be refreshed and updated when remote manifests change.
-
-## Basic features
-
-* Complete tools for custom guides creation for your favorite dungeons.
-* Support for the features to add your languages translations.
-* Built-in GUI support for all guide settings.
-* Support for voice notifications (Windows TTS module is used).
-* Flexible and powerful functionality for scripting guides.
-* Automatically generated dungeon list based on game client files.
-* Used modern JavaScript for improved performance.
-* To handle all events and hooks used nodejs EventEmitter.
-
 ## Dependencies
 
 * **Library** - https://github.com/tera-private-toolbox/library
