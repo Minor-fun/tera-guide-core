@@ -2,8 +2,6 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-# tera-guide-core
-
 ## Dependencies
 
 * **Library** - https://github.com/tera-private-toolbox/library
@@ -73,7 +71,9 @@ Note: The dependencies section cannot be changed.
 
 ## Custom translation
 
-If necessary, you can add your own translation of the commands, GUI and dungeon list. To do this, create a **lang** folder into root directory of your module, add there files [strings.js](https://raw.githubusercontent.com/hsdn/tera-guide-core/master/lib/lang/strings.js) and [dungeons.js](https://raw.githubusercontent.com/hsdn/tera-guide-core/master/lib/lang/dungeons.js), and edit them to include your translation. It is recommended to use ISO code to specify the language in the string arrays.
+Supply `mod.i18nManager` before calling `load(mod, options)`. The current [tera-guide translation manager](https://github.com/Minor-fun/tera-guide/blob/dev/lib/i18n-manager.js) loads JSON files from `i18n/general/<lang>.json` for commands and GUI, and `i18n/<dungeonId>/<lang>.json` for dungeon text. Use `@dungeon` for the translated dungeon name, and pass `i18nManager.getSupportedLanguages()` as `options.languages`.
+
+Guide functions receive the translator `t` as their fifth argument. Use `t("English original text")` to retain the original key for cross-language cached speech.
 
 At next edit your **settings_migrator.js** by changing the `language` parameter to specify your language code (the code must match the one specified in the guide files and files above). To specify the your language for message strings in guide files, please use the keys in format `message_LANG` (where `LANG` is the ISO code of your language), for example: `message_RU`.
 

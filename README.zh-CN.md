@@ -2,8 +2,6 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-# tera-guide-core
-
 ## 依赖
 
 * **Library** - https://github.com/tera-private-toolbox/library
@@ -70,7 +68,9 @@ module.exports.NetworkMod = function (mod) {
 
 ## 自定义翻译
 
-如有必要，您可以添加自己的命令、GUI和副本列表翻译。为此，请在模块的根目录中创建**lang**文件夹，添加[strings.js](https://raw.githubusercontent.com/hsdn/tera-guide-core/master/lib/lang/strings.js)和[dungeons.js](https://raw.githubusercontent.com/hsdn/tera-guide-core/master/lib/lang/dungeons.js)文件，并编辑它们以包含您的翻译。建议使用ISO代码在字符串数组中指定语言。
+调用 `load(mod, options)` 前，先设置 `mod.i18nManager`。当前 [tera-guide 翻译管理器](https://github.com/Minor-fun/tera-guide/blob/dev/lib/i18n-manager.js) 从 `i18n/general/<lang>.json` 读取命令和界面翻译，从 `i18n/<dungeonId>/<lang>.json` 读取副本翻译；`@dungeon` 用于副本名称。把 `i18nManager.getSupportedLanguages()` 传给 `options.languages`，即可提供可选语言列表。
+
+副本函数的第五个参数是翻译函数 `t`。使用 `t("英文原文")` 可以保留原文 key，供跨语言缓存语音使用。
 
 接下来，通过更改`language`参数来编辑您的**settings_migrator.js**，以指定您的语言代码（该代码必须与指南文件和上述文件中指定的代码匹配）。要在指南文件中为消息字符串指定您的语言，请使用格式为`message_LANG`的键（其中`LANG`是您语言的ISO代码），例如：`message_RU`。
 

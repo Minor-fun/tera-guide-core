@@ -2,3 +2,4 @@ manifest-generator.bat
 manifest-generator.js
 .eslintrc.json
 package.json
+/tests/
