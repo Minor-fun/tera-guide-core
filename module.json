@@ -7,8 +7,8 @@
     },
     "author": "hyacinth/HSDN",
     "description": "TERA-Guide module library.",
-    "servers": ["https://raw.githubusercontent.com/Minor-fun/tera-guide-core/dev/"],
-    "supportUrl": "https://github.com/Minor-fun/tera-guide/issues",
+    "servers": ["https://raw.githubusercontent.com/mods-for-me/tera-guide-core/master/"],
+    "supportUrl": "https://github.com/mods-for-me/tera-guide/issues",
     "dependencies": {
         "library": "https://raw.githubusercontent.com/tera-private-toolbox/library/master/module.json"
     }
